@@ -1,0 +1,21 @@
+# For PREX data
+
+--------[ 2010-01-02 01:00:00 ]
+
+ebeam     = 0.95
+L.theta   = 5.007
+R.theta   = -4.910
+LGEM.theta   = 5.007
+RGEM.theta   = -4.910
+L.pcentral= 0.95
+R.pcentral= 0.95
+LGEM.pcentral= 0.95
+RGEM.pcentral= 0.95
+
+# for tune A
+# L.vdc.config = prex
+# R.vdc.config = prex
+
+# for tune B
+#L.vdc.config = prex-alt
+#R.vdc.config = prex-alt

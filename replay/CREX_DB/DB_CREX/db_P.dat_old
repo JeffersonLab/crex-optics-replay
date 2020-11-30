@@ -1,0 +1,103 @@
+# Parity Data
+# R. Michaels, April 2019
+# Comments start with '#'
+#
+# Here is where to search for the variables of this class.
+# Syntax depends on whether crate/word = "crate" or "word".
+# If "crate", we are looking into crates by slot and channel.
+# if "word", we are looking at a position relative to a header.
+# Hence, either:
+# name     "crate"   crate-number    slot    channel
+# or:
+# name     "word"    crate-number    header  num-to-skip
+# For the latter case, if one specifies crate-number = 0, then the
+# entire event is searched for 'header' (which in this case must be unique).
+# If crate-number > 0, then only that crate is searched.
+#
+# If this file is not existing, THaDecData will use its own internal DefaultMap().
+
+# this sort-of works for runs 6840, 27723 of PREX-I but I could not find TDCs
+# L-HRS
+
+# upper Quartz adc on L-HRS
+upQadcL crate   3  19  2
+
+# lower Quartz adc on L-HRS
+loQadcL crate   3  19  3
+
+# AT (left)  detector adc on L-HRS
+atlQadcL crate   3  19  4
+
+# AT (right)  detector adc on L-HRS
+atrQadcL crate   3  19  5
+
+# Scintillator adc above VDC on L-HRS
+loSciadcL crate   3  19  0
+
+# Scintillator adc above GEM detectors on L-HRS
+upSciadcL crate   3  19  1
+
+# upper Quartz tdc on L-HRS
+upQtdcL crate 4  11 34
+
+# lower Quartz tdc on L-HRS
+loQtdcL crate 4  11 35
+
+# AT (left) detector TDC on L-HRS
+atlQtdcL crate 4  11  36
+
+# AT (right) detector TDC on L-HRS
+atrQtdcL crate 4  11  37
+
+# Scintillator tdc above VDC on L-HRS
+loScitdcL crate   4  11  32
+
+# Scintillator tdc above GEM detectors on L-HRS
+upScitdcL crate   4  11  33
+
+
+
+# R-HRS
+
+# upper Quartz adc on R-HRS
+upQadcR crate   1  20  34
+
+# lower Quartz adc on R-HRS
+loQadcR crate   1  20  35
+
+# AT (left) detector adc on R-HRS
+atlQadcR crate   1  20  36
+
+# AT (right) detector adc on R-HRS
+atrQadcR crate   1  20  37
+
+# Scintillator adc above VDC on R-HRS
+loSciadcR crate   1  20  32
+
+# Scintillator adc above GEM detectors on R-HRS
+upSciadcR crate   1  20  33
+
+
+# upper Quartz tdc on R-HRS
+upQtdcR crate  2  11  34
+
+# lower Quartz tdc on R-HRS
+loQtdcR  crate  2  11  35
+
+# AT (left) detector tdc on R-HRS
+atlQtdcR  crate  2 11 36 
+
+# AT (right)  detector tdc on R-HRS
+atrQtdcR  crate  2 11 37
+ 
+# Scintillator tdc above VDC on R-HRS
+loScitdcR crate   2  11  32
+
+# Scintillator tdc above GEM detectors on R-HRS
+upScitdcR crate   2  11  33
+#update by ye based on the new FADC channel map for testig the ParityData.cxx 
+# location of FADC on R-HRS
+fadcR  crate  20  6  0
+
+# location of FADC on L-HRS
+fadcL  crate  31  5  0

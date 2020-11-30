@@ -1,0 +1,139 @@
+# Parity Data
+# R. Michaels, April 2019
+# Comments start with '#'
+#
+# Here is where to search for the variables of this class.
+# Syntax depends on whether crate/word = "crate" or "word".
+# If "crate", we are looking into crates by slot and channel.
+# if "word", we are looking at a position relative to a header.
+# Hence, either:
+# name     "crate"   crate-number    slot    channel
+# or:
+# name     "word"    crate-number    header  num-to-skip
+# For the latter case, if one specifies crate-number = 0, then the
+# entire event is searched for 'header' (which in this case must be unique).
+# If crate-number > 0, then only that crate is searched.
+#
+# If this file is not existing, THaDecData will use its own internal DefaultMap().
+
+# this sort-of works for runs 6840, 27723 of PREX-I but I could not find TDCs
+# L-HRS
+
+# upper Quartz adc on L-HRS
+upQadcL crate   3  19  3
+
+# lower(down) Quartz adc on L-HRS
+loQadcL crate   3  19  4
+
+# AT (left) in detector adc on L-HRS
+atlQadcL crate   3  19  5
+
+# AT (right) out  detector adc on L-HRS
+atrQadcL crate   3  19  6
+
+# Scintillator adc above VDC on L-HRS S0A
+S0AadcL crate   3  19  0
+
+# Scintillator adc above VDC on L-HRS S0B
+S0BadcL crate   3  19  1
+
+# Scintillator adc above GEM on L-HRS S3
+S3adcL crate   3  19  2
+
+# upper Quartz tdc on L-HRS
+upQtdcL crate 4  11 35
+
+# lower Quartz tdc on L-HRS
+loQtdcL crate 4  11 36
+
+# AT (left) detector TDC on L-HRS
+atlQtdcL crate 4  11  37
+
+# AT (right) detector TDC on L-HRS
+atrQtdcL crate 4  11  38
+
+# Scintillator tdc above VDC on L-HRS S0A
+S0AtdcL crate   4  11  32
+
+# Scintillator tdc above VDC on L-HRS S0B
+S0BtdcL crate   4  11  33
+
+
+# Scintillator tdc above GEM detectors on L-HRS S3
+S3tdcL crate   4  11  34
+
+# R-HRS
+
+# upper Quartz adc on R-HRS
+upQadcR crate   1  20  35
+
+# lower Quartz adc on R-HRS
+loQadcR crate   1  20  36
+
+# AT (left) detector adc on R-HRS
+atlQadcR crate   1  20  37
+
+# AT (right) detector adc on R-HRS
+atrQadcR crate   1  20  38
+
+# Scintillator adc above VDC on R-HRS
+S0AadcR crate   1  20  32
+
+# Scintillator adc above GEM detectors on R-HRS
+S0BadcR crate   1  20  33
+
+# Scintillator adc above GEM on R-HRS S3
+S3adcR crate  1  20  34
+
+# upper Quartz tdc on R-HRS
+upQtdcR crate  2  11  35
+
+# lower Quartz tdc on R-HRS
+loQtdcR  crate  2  11  36
+
+# AT (left) detector tdc on R-HRS
+atlQtdcR  crate  2 11 37 
+
+# AT (right)  detector tdc on R-HRS
+atrQtdcR  crate  2 11 38
+ 
+# Scintillator tdc above VDC on R-HRS
+S0AtdcR crate   2  11  32
+
+# Scintillator tdc above GEM detectors on R-HRS
+S0BtdcR crate   2  11  33
+
+# Scintillator tdc above GEM detectors on R-HRS S3
+S3tdcR crate  2  11  34
+fadcR  crate  20  6  0  #don't delete for ParityData.cxx
+fadcL  crate  31  5  0  #don't delete for ParityData.cxx
+# location of FADC on L-HRS
+fadcS0AL  crate  31  5  0
+fadcS0BL  crate  31  5  1
+fadcS3L  crate  31  5  2
+fadcUQL  crate  31  5  3
+fadcDQL  crate  31  5  4
+fadcATINL  crate  31  5  5  
+fadcATOUTL  crate  31  5  6
+
+fadcS0AR  crate  20  6  0
+fadcS0BR  crate  20  6  1
+fadcS3R  crate  20  6  2
+fadcUQR  crate  20  6  3
+fadcDQR  crate  20  6  4
+fadcATINR  crate  20  6  5
+fadcATOUTR  crate  20  6  6
+
+urastYL  crate  31  6  0
+urastXL  crate  31  6  1
+drastYL  crate  31  6  2
+drastXL  crate  31  6  3
+bpmAXPL  crate  31  6  4
+bpmAXML  crate  31  6  5
+bpmAYPL  crate  31  6  6
+bpmAYML  crate  31  6  7
+bpmEXPL  crate  31  6  8
+bpmEXML  crate  31  6  9
+bpmEYPL  crate  31  6  10
+bpmEYML  crate  31  6  11
+

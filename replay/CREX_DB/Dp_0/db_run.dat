@@ -1,0 +1,18 @@
+# For CREX data
+
+--------[ 2010-01-02 01:00:00 ]
+
+ebeam     = 2.17568
+L.theta   = 4.7469
+R.theta   = -4.7572
+L.pcentral= 2.185155798
+R.pcentral= 2.188559918
+
+
+# for tune A
+# L.vdc.config = prex
+# R.vdc.config = prex
+
+# for tune B
+#L.vdc.config = prex-alt
+#R.vdc.config = prex-alt
