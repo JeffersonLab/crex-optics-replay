@@ -39,6 +39,8 @@ block L.vdc*
 variable P.evtypebits
 variable P.upQadcL
 variable P.loQadcL
+variable P.atlQadcL
+variable P.atrQadcL
 
 block EK_L.*
 	

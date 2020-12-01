@@ -23,7 +23,7 @@
 upQadcL crate   3  19  3
 
 # lower(down) Quartz adc on L-HRS
-loQadcL crate   3  19  4
+ loQadcL crate   3  19  4
 
 # AT (left) in detector adc on L-HRS
 atlQadcL crate   3  19  5
@@ -39,6 +39,12 @@ S0BadcL crate   3  19  1
 
 # Scintillator adc above GEM on L-HRS S3
 S3adcL crate   3  19  2
+
+# Scintillator adc above GEM on L-HRS S3
+S3adcL1 crate   3  19  7
+
+# Scintillator adc above GEM on L-HRS S3
+S3adcL2 crate   3  19  8
 
 # upper Quartz tdc on L-HRS
 upQtdcL crate 4  11 35
@@ -62,19 +68,25 @@ S0BtdcL crate   4  11  33
 # Scintillator tdc above GEM detectors on L-HRS S3
 S3tdcL crate   4  11  34
 
+# Scintillator tdc above GEM detectors on L-HRS S3
+S3tdcL1 crate   4  11  39
+
+# Scintillator tdc above GEM detectors on L-HRS S3
+S3tdcL2 crate   4  11  40
+
 # R-HRS
 
 # upper Quartz adc on R-HRS
-upQadcR crate   1  20  35
+upQadcR crate   1  20  41
 
 # lower Quartz adc on R-HRS
 loQadcR crate   1  20  36
 
 # AT (left) detector adc on R-HRS
-atlQadcR crate   1  20  37
+atlQadcR crate   1  20  42
 
 # AT (right) detector adc on R-HRS
-atrQadcR crate   1  20  38
+atrQadcR crate   1  20  43
 
 # Scintillator adc above VDC on R-HRS
 S0AadcR crate   1  20  32
@@ -82,8 +94,14 @@ S0AadcR crate   1  20  32
 # Scintillator adc above GEM detectors on R-HRS
 S0BadcR crate   1  20  33
 
-# Scintillator adc above GEM on R-HRS S3
+# Scintillator adc above GEM on R-HRS S3 in middle
 S3adcR crate  1  20  34
+
+# Scintillator adc above GEM on R-HRS S3 near beamline
+S3adcR1 crate  1  20  39
+
+# Scintillator adc above GEM on R-HRS S3 away from beamline
+S3adcR2 crate  1  20  40
 
 # upper Quartz tdc on R-HRS
 upQtdcR crate  2  11  35
@@ -105,6 +123,13 @@ S0BtdcR crate   2  11  33
 
 # Scintillator tdc above GEM detectors on R-HRS S3
 S3tdcR crate  2  11  34
+
+# Scintillator tdc above GEM detectors on R-HRS
+S3tdcR1 crate   2  11  39
+
+# Scintillator tdc above GEM detectors on R-HRS
+S3tdcR2 crate   2  11  40
+
 fadcR  crate  20  6  0  #don't delete for ParityData.cxx
 fadcL  crate  31  5  0  #don't delete for ParityData.cxx
 # location of FADC on L-HRS

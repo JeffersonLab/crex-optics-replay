@@ -21,7 +21,7 @@ LINKDEF = $(PACKAGE)_LinkDef.h
 # Change as necessary,
 
 # Compile with diagnostic code
-export WITH_DEBUG = 1
+export WITH_DEBUG = 0
 
 # Compile debug version
 #export DEBUG = 1

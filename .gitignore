@@ -17,3 +17,7 @@ replay/Rootfiles/*
 **/*.log
 **/*.out
 *.pdf
+*bk
+*back
+*backup
+*bak

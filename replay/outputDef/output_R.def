@@ -40,6 +40,8 @@ block R.vdc*
 variable P.evtypebits
 variable P.upQadcR
 variable P.loQadcR
+variable P.atlQadcR
+variable P.atrQadcR
 
 
 block EK_R.*
