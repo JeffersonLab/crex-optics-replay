@@ -1,4 +1,4 @@
-R__LOAD_LIBRARY(./libraries/ParityData/libParity.so)
+R__LOAD_LIBRARY(/w/halla-scifs17exp/parity/disk1/crex_optics/replay/libraries/ParityData/libParity.so)
 
 #include <iostream>
 #include <cstdlib>
@@ -71,15 +71,15 @@ void setup(Int_t runNo=0, Int_t lastevt=-1, TString target="Ca48"){
   
   char outname[300];
   if(runNo>20000)
-    sprintf(outname,"Rootfiles/prexRHRS_%d_%d.root",runNo, lastevt);
+    sprintf(outname,"/lustre19/expphy/volatile/halla/parity/crex_optics_rootfiles/prexRHRS_%d_%d.root",runNo, lastevt);
   else
-    sprintf(outname,"Rootfiles/prexLHRS_%d_%d.root",runNo, lastevt);
+    sprintf(outname,"/lustre19/expphy/volatile/halla/parity/crex_optics_rootfiles/prexLHRS_%d_%d.root",runNo, lastevt);
   analyzer->SetOutFile( outname );
-  analyzer->SetCutFile("cuts/onlana.cuts");
+  analyzer->SetCutFile("/w/halla-scifs17exp/parity/disk1/crex_optics/replay/cuts/onlana.cuts");
   if(runNo>20000)
-    analyzer->SetOdefFile("outputDef/output_R.def");
-  else  analyzer->SetOdefFile("outputDef/output_L.def");
-  analyzer->SetSummaryFile("log/summary_example.log"); // optional
+    analyzer->SetOdefFile("/w/halla-scifs17exp/parity/disk1/crex_optics/replay/outputDef/output_R.def");
+  else  analyzer->SetOdefFile("/w/halla-scifs17exp/parity/disk1/crex_optics/replay/outputDef/output_L.def");
+  analyzer->SetSummaryFile("/w/halla-scifs17exp/parity/disk1/crex_optics/replay/log/summary_example.log"); // optional
 
   TString oldfilename="";
   int found;
