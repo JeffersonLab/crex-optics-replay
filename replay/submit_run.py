@@ -2,6 +2,7 @@
 from subprocess import call
 import subprocess
 import sys,os,time
+from os import path
 
 def main():
     
@@ -11,16 +12,32 @@ def main():
 
     _runID=1
 
-    targetfile="C12_1.txt"
-    _target="C12"
+    targetfile="Ca48.txt"
+    _target="Ca48"
     runfile=open(_replaydir+"Runlist/"+targetfile,"r")
     for line in runfile:
         if (len(line) < 4):
             continue
+
         _runID=int(line)
+       
+	if(_runID<20000):
+	   rootfile =_rootout+"prexLHRS_"+str(_runID)+"_-1.root"
+	else:
+	   rootfile =_rootout+"prexRHRS_"+str(_runID)+"_-1.root"
+
+	if(path.exists(rootfile)):
+	   print str(_runID)+" root file exists already"
+	   continue
+
         createBatchfile(_replaydir,_rootout,_target,_runID)
 
         _workflowID="crex_optics_"+str(_runID)
+
+	jsubfile = _rootout+"job_files/"+_workflowID+".xml"
+	if(path.exists(jsubfile)):
+	   print jsubfile+" exists already, will skip this one"
+	   continue
 
         createJsubfile(_replaydir,_rootout,_workflowID,_runID)
 
@@ -63,7 +80,7 @@ def createJsubfile(replaydir,rootout,workflowID,runID):
     f.write("  <Name name=\""+workflowID+"\"/>\n")
     f.write("  <OS name=\"centos77\"/>\n")
     f.write("  <CPU core=\"2\"/>\n")
-    f.write("  <Memory space=\"2048\" unit=\"MB\"/>\n")
+    f.write("  <Memory space=\"1024\" unit=\"MB\"/>\n")
     f.write("  <TimeLimit time=\"5\" unit=\"hours\"/>\n")
     f.write("  <Job>\n")
     f.write("    <Command><![CDATA[\n")
