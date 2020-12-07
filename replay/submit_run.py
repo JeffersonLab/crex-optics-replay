@@ -14,6 +14,8 @@ def main():
 
     targetfile="Ca48.txt"
     _target="Ca48"
+    overwrite_L=1
+    overwrite_R=0
     runfile=open(_replaydir+"Runlist/"+targetfile,"r")
     for line in runfile:
         if (len(line) < 4):
@@ -21,23 +23,47 @@ def main():
 
         _runID=int(line)
        
-	if(_runID<20000):
-	   rootfile =_rootout+"prexLHRS_"+str(_runID)+"_-1.root"
-	else:
-	   rootfile =_rootout+"prexRHRS_"+str(_runID)+"_-1.root"
+        if (_runID<20000):
+           rootfile =_rootout+"prexLHRS_"+str(_runID)+"_-1.root"
+        else:
+           rootfile =_rootout+"prexRHRS_"+str(_runID)+"_-1.root"
 
-	if(path.exists(rootfile)):
-	   print str(_runID)+" root file exists already"
-	   continue
+        if (path.exists(rootfile)):
+           print str(_runID)+" root file exists already"
+           if (_runID<20000 and overwrite_L==1):
+              print "Removing the existing root file"
+              rootfilename=_rootout+"prexLHRS_"+str(_runID)+"_-1.root"
+	      nn=0
+              while(path.exists(rootfilename)):
+                os.remove(rootfilename)
+		nn=nn+1
+	        rootfilename=_rootout+"prexLHRS_"+str(_runID)+"_-1_"+str(nn)+".root"
+
+           elif (_runID>20000 and overwrite_R==1):
+                print "Removing the existing root file"
+                rootfilename=_rootout+"prexRHRS_"+str(_runID)+"*"
+                while(path.exists(rootfilename)):
+                   os.remove(rootfilename)
+		   nn=nn+1
+	           rootfilename=_rootout+"prexRHRS_"+str(_runID)+"_-1_"+str(nn)+".root"
+           else:
+	        print "will skip this one"
+                continue
 
         createBatchfile(_replaydir,_rootout,_target,_runID)
 
         _workflowID="crex_optics_"+str(_runID)
 
 	jsubfile = _rootout+"job_files/"+_workflowID+".xml"
-	if(path.exists(jsubfile)):
-	   print jsubfile+" exists already, will skip this one"
-	   continue
+	if (path.exists(jsubfile)):
+	   print jsubfile+" exists already"
+	   if (_runID<20000 and overwrite_L==1):
+	      os.remove(jsubfile)
+	   elif (_runID>20000 and overwrite_R==1):
+	        os.remove(jsubfile)
+	   else:
+	        print "will skip this one"
+	        continue
 
         createJsubfile(_replaydir,_rootout,_workflowID,_runID)
 

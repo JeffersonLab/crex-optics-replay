@@ -7,12 +7,12 @@ R.pcentral = 2.18844
 # parameters from EPICS run 2631
 ebeam = 2.18248
 L.theta = 4.78
-L.pcentral = 2.30905
+L.pcentral = 2.18281
 --------[ 2019-12-12 08:02:59 ]
 # parameters from EPICS run 2634
 ebeam = 2.18258
 L.theta = 4.78
-L.pcentral = 2.12562
+L.pcentral = 2.18281
 --------[ 2019-12-12 08:03:03 ]
 # parameters from EPICS run 21699
 ebeam = 2.18263
@@ -22,7 +22,7 @@ R.pcentral = 2.18843
 # parameters from EPICS run 2637
 ebeam = 2.18265
 L.theta = 4.78
-L.pcentral = 0.922966
+L.pcentral = 2.18309
 --------[ 2019-12-12 08:50:13 ]
 # parameters from EPICS run 21702
 ebeam = 2.18263
@@ -32,7 +32,7 @@ R.pcentral = 2.18843
 # parameters from EPICS run 2648
 ebeam = 2.18312
 L.theta = 4.78
-L.pcentral = 2.12398
+L.pcentral = 2.18253
 --------[ 2019-12-14 15:31:29 ]
 # parameters from EPICS run 21713
 ebeam = 2.18312
@@ -47,12 +47,12 @@ R.pcentral = 2.18844
 # parameters from EPICS run 2649
 ebeam = 2.18281
 L.theta = 4.78
-L.pcentral = 2.28889
+L.pcentral = 2.18253
 --------[ 2019-12-15 20:18:57 ]
 # parameters from EPICS run 2652
 ebeam = 2.18285
 L.theta = 4.78
-L.pcentral = 2.71629
+L.pcentral = 2.18253
 --------[ 2019-12-15 20:18:57 ]
 # parameters from EPICS run 21717
 ebeam = 2.18283
@@ -62,7 +62,7 @@ R.pcentral = 2.18844
 # parameters from EPICS run 2787
 ebeam = 2.18312
 L.theta = 4.78
-L.pcentral = 0.876434
+L.pcentral = 2.18309
 --------[ 2020-01-7 02:30:28 ]
 # parameters from EPICS run 21813
 ebeam = 2.18312
@@ -87,12 +87,12 @@ R.pcentral = 2.18844
 # parameters from EPICS run 2788
 ebeam = 2.18312
 L.theta = 4.78
-L.pcentral = 1.71226
+L.pcentral = 2.18309
 --------[ 2020-01-7 04:47:49 ]
 # parameters from EPICS run 2789
 ebeam = 2.18277
 L.theta = 4.78
-L.pcentral = 2.22128
+L.pcentral = 2.18309
 --------[ 2020-01-7 04:47:53 ]
 # parameters from EPICS run 21817
 ebeam = 2.18276
@@ -112,12 +112,12 @@ R.pcentral = 2.18844
 # parameters from EPICS run 2790
 ebeam = 2.18285
 L.theta = 4.78
-L.pcentral = 2.17574
+L.pcentral = 2.18309
 --------[ 2020-01-7 23:06:10 ]
 # parameters from EPICS run 2792
 ebeam = 2.18279
 L.theta = 4.78
-L.pcentral = 2.71224
+L.pcentral = 2.18309
 --------[ 2020-01-7 23:06:12 ]
 # parameters from EPICS run 21821
 ebeam = 2.1828
@@ -127,7 +127,7 @@ R.pcentral = 2.18851
 # parameters from EPICS run 2795
 ebeam = 2.18273
 L.theta = 4.78
-L.pcentral = 2.22851
+L.pcentral = 2.18281
 --------[ 2020-01-9 02:16:31 ]
 # parameters from EPICS run 21824
 ebeam = 2.18271
@@ -142,12 +142,12 @@ R.pcentral = 2.1885
 # parameters from EPICS run 2799
 ebeam = 2.18261
 L.theta = 4.78
-L.pcentral = 2.28505
+L.pcentral = 2.18365
 --------[ 2020-01-11 10:10:32 ]
 # parameters from EPICS run 2803
 ebeam = 2.18287
 L.theta = 4.78
-L.pcentral = 2.42485
+L.pcentral = 2.18281
 --------[ 2020-01-11 10:12:47 ]
 # parameters from EPICS run 21829
 ebeam = 2.18292
@@ -157,7 +157,7 @@ R.pcentral = 2.1885
 # parameters from EPICS run 2829
 ebeam = 2.1829
 L.theta = 4.78
-L.pcentral = 1.18846
+L.pcentral = 2.18337
 --------[ 2020-01-16 04:12:54 ]
 # parameters from EPICS run 21841
 ebeam = 2.18292
@@ -172,7 +172,7 @@ R.pcentral = 2.18851
 # parameters from EPICS run 2870
 ebeam = 2.18235
 L.theta = 4.78
-L.pcentral = 2.11705
+L.pcentral = 2.18309
 --------[ 2020-01-24 02:46:55 ]
 # parameters from EPICS run 21875
 ebeam = 2.18236
@@ -182,7 +182,7 @@ R.pcentral = 2.18851
 # parameters from EPICS run 2884
 ebeam = 2.18235
 L.theta = 4.78
-L.pcentral = 1.11297
+L.pcentral = 2.18309
 --------[ 2020-01-25 02:05:34 ]
 # parameters from EPICS run 21888
 ebeam = 2.18238
@@ -192,7 +192,7 @@ R.pcentral = 2.18852
 # parameters from EPICS run 2886
 ebeam = 2.18223
 L.theta = 4.78
-L.pcentral = 2.65967
+L.pcentral = 2.18309
 --------[ 2020-01-25 19:25:58 ]
 # parameters from EPICS run 21889
 ebeam = 2.18231
@@ -202,7 +202,7 @@ R.pcentral = 2.18852
 # parameters from EPICS run 2925
 ebeam = 2.18247
 L.theta = 4.78
-L.pcentral = 0.985582
+L.pcentral = 2.18337
 --------[ 2020-02-6 10:30:55 ]
 # parameters from EPICS run 21931
 ebeam = 2.18246
@@ -212,7 +212,7 @@ R.pcentral = 2.18851
 # parameters from EPICS run 2940
 ebeam = 2.18272
 L.theta = 4.78
-L.pcentral = 0.898718
+L.pcentral = 2.18337
 --------[ 2020-02-10 20:22:04 ]
 # parameters from EPICS run 21945
 ebeam = 2.18272
@@ -227,12 +227,12 @@ R.pcentral = 2.18852
 # parameters from EPICS run 2946
 ebeam = 2.18272
 L.theta = 4.78
-L.pcentral = 2.17366
+L.pcentral = 2.18309
 --------[ 2020-02-11 19:34:29 ]
 # parameters from EPICS run 2948
 ebeam = 2.1827
 L.theta = 4.78
-L.pcentral = 1.77504
+L.pcentral = 2.18337
 --------[ 2020-02-11 19:34:31 ]
 # parameters from EPICS run 21953
 ebeam = 2.1827
@@ -242,7 +242,7 @@ R.pcentral = 2.18853
 # parameters from EPICS run 2949
 ebeam = 2.18272
 L.theta = 4.78
-L.pcentral = 2.67488
+L.pcentral = 2.18337
 --------[ 2020-02-12 05:24:21 ]
 # parameters from EPICS run 21954
 ebeam = 2.18272
@@ -257,12 +257,12 @@ R.pcentral = 2.18852
 # parameters from EPICS run 2957
 ebeam = 2.18246
 L.theta = 4.78
-L.pcentral = 1.18484
+L.pcentral = 2.18309
 --------[ 2020-02-18 07:03:44 ]
 # parameters from EPICS run 2959
 ebeam = 2.18281
 L.theta = 4.78
-L.pcentral = 2.23531
+L.pcentral = 2.18309
 --------[ 2020-02-18 07:03:46 ]
 # parameters from EPICS run 21964
 ebeam = 2.18277
@@ -272,7 +272,7 @@ R.pcentral = 2.18851
 # parameters from EPICS run 2961
 ebeam = 2.1824
 L.theta = 4.78
-L.pcentral = 2.20739
+L.pcentral = 2.18309
 --------[ 2020-02-21 16:18:03 ]
 # parameters from EPICS run 21966
 ebeam = 2.18239
@@ -282,7 +282,7 @@ R.pcentral = 2.18844
 # parameters from EPICS run 2962
 ebeam = 2.18232
 L.theta = 4.78
-L.pcentral = 2.59592
+L.pcentral = 2.18309
 --------[ 2020-02-26 22:22:29 ]
 # parameters from EPICS run 21968
 ebeam = 2.18276
@@ -292,7 +292,7 @@ R.pcentral = 2.18851
 # parameters from EPICS run 2964
 ebeam = 2.18264
 L.theta = 4.78
-L.pcentral = 2.31369
+L.pcentral = 2.18281
 --------[ 2020-02-28 16:30:10 ]
 # parameters from EPICS run 21969
 ebeam = 2.18276
@@ -302,7 +302,7 @@ R.pcentral = 2.18851
 # parameters from EPICS run 2971
 ebeam = 2.18247
 L.theta = 4.78
-L.pcentral = 2.13246
+L.pcentral = 2.18225
 --------[ 2020-03-15 21:11:46 ]
 # parameters from EPICS run 21972
 ebeam = 2.18248
@@ -317,7 +317,7 @@ R.pcentral = 2.18848
 # parameters from EPICS run 2972
 ebeam = 2.18254
 L.theta = 4.78
-L.pcentral = 0.952312
+L.pcentral = 2.18253
 --------[ 2020-03-15 21:53:22 ]
 # parameters from EPICS run 21974
 ebeam = 2.18254
@@ -327,7 +327,7 @@ R.pcentral = 2.18848
 # parameters from EPICS run 2973
 ebeam = 2.18258
 L.theta = 4.78
-L.pcentral = 0.920214
+L.pcentral = 2.18253
 --------[ 2020-03-15 22:06:52 ]
 # parameters from EPICS run 21975
 ebeam = 2.18258
@@ -342,12 +342,12 @@ R.pcentral = 2.18848
 # parameters from EPICS run 2974
 ebeam = 2.18276
 L.theta = 4.78
-L.pcentral = 0.957734
+L.pcentral = 2.18253
 --------[ 2020-03-22 16:26:13 ]
 # parameters from EPICS run 2977
 ebeam = 2.18251
 L.theta = 4.78
-L.pcentral = 2.56227
+L.pcentral = 2.18281
 --------[ 2020-03-22 16:26:18 ]
 # parameters from EPICS run 22012
 ebeam = 2.18254
@@ -357,7 +357,7 @@ R.pcentral = 2.18849
 # parameters from EPICS run 2978
 ebeam = 2.18244
 L.theta = 4.78
-L.pcentral = 2.83533
+L.pcentral = 2.18281
 --------[ 2020-03-22 16:53:04 ]
 # parameters from EPICS run 22013
 ebeam = 2.18244
@@ -367,7 +367,7 @@ R.pcentral = 2.18849
 # parameters from EPICS run 2979
 ebeam = 2.18243
 L.theta = 4.78
-L.pcentral = 1.83316
+L.pcentral = 2.18281
 --------[ 2020-03-22 17:00:46 ]
 # parameters from EPICS run 22014
 ebeam = 2.18246
@@ -377,7 +377,7 @@ R.pcentral = 2.18849
 # parameters from EPICS run 2980
 ebeam = 2.18276
 L.theta = 4.78
-L.pcentral = 0.887634
+L.pcentral = 2.18281
 --------[ 2020-03-22 17:16:54 ]
 # parameters from EPICS run 22015
 ebeam = 2.18276
@@ -392,12 +392,12 @@ R.pcentral = 2.18849
 # parameters from EPICS run 2981
 ebeam = 2.18232
 L.theta = 4.78
-L.pcentral = 0.888215
+L.pcentral = 2.18281
 --------[ 2020-03-22 18:24:03 ]
 # parameters from EPICS run 2982
 ebeam = 2.18276
 L.theta = 4.78
-L.pcentral = 2.23403
+L.pcentral = 2.18281
 --------[ 2020-03-22 18:24:08 ]
 # parameters from EPICS run 22017
 ebeam = 2.18276
@@ -407,7 +407,7 @@ R.pcentral = 2.1885
 # parameters from EPICS run 2983
 ebeam = 2.18234
 L.theta = 4.78
-L.pcentral = 2.66124
+L.pcentral = 2.18281
 --------[ 2020-03-22 18:37:58 ]
 # parameters from EPICS run 22018
 ebeam = 2.18237
@@ -417,7 +417,7 @@ R.pcentral = 2.18849
 # parameters from EPICS run 2984
 ebeam = 2.18239
 L.theta = 4.78
-L.pcentral = 0.939877
+L.pcentral = 2.14181
 --------[ 2020-03-22 19:02:01 ]
 # parameters from EPICS run 22019
 ebeam = 2.1829
@@ -427,17 +427,17 @@ R.pcentral = 2.18849
 # parameters from EPICS run 2985
 ebeam = 2.18288
 L.theta = 4.78
-L.pcentral = 2.15014
+L.pcentral = 2.10137
 --------[ 2020-03-22 19:16:23 ]
 # parameters from EPICS run 2986
 ebeam = 2.18275
 L.theta = 4.78
-L.pcentral = 0.971108
+L.pcentral = 2.14181
 --------[ 2020-03-22 19:58:25 ]
 # parameters from EPICS run 2987
 ebeam = 2.18264
 L.theta = 4.78
-L.pcentral = 2.2042
+L.pcentral = 2.14181
 --------[ 2020-03-22 19:58:30 ]
 # parameters from EPICS run 22021
 ebeam = 2.18263
@@ -447,27 +447,27 @@ R.pcentral = 2.1885
 # parameters from EPICS run 2988
 ebeam = 2.18238
 L.theta = 4.78
-L.pcentral = 0.983521
+L.pcentral = 2.10137
 --------[ 2020-03-22 20:25:14 ]
 # parameters from EPICS run 2989
 ebeam = 2.18256
 L.theta = 4.78
-L.pcentral = 2.12039
+L.pcentral = 2.06121
 --------[ 2020-03-22 20:38:44 ]
 # parameters from EPICS run 2990
 ebeam = 2.18264
 L.theta = 4.78
-L.pcentral = 1.92127
+L.pcentral = 2.01993
 --------[ 2020-03-22 20:51:44 ]
 # parameters from EPICS run 2991
 ebeam = 2.18274
 L.theta = 4.78
-L.pcentral = 2.11236
+L.pcentral = 1.97921
 --------[ 2020-08-12 06:28:40 ]
 # parameters from EPICS run 3140
 ebeam = 2.18247
 L.theta = 4.78
-L.pcentral = 0.614019
+L.pcentral = 2.18337
 --------[ 2020-08-12 06:28:40 ]
 # parameters from EPICS run 22143
 ebeam = 2.18247
@@ -477,7 +477,7 @@ R.pcentral = 2.18849
 # parameters from EPICS run 3146
 ebeam = 2.18247
 L.theta = 4.78
-L.pcentral = 0.617102
+L.pcentral = 2.18337
 --------[ 2020-08-16 16:42:50 ]
 # parameters from EPICS run 22154
 ebeam = 2.18247
@@ -487,7 +487,7 @@ R.pcentral = 2.18854
 # parameters from EPICS run 3149
 ebeam = 2.18247
 L.theta = 4.78
-L.pcentral = 0.523509
+L.pcentral = 2.18337
 --------[ 2020-08-16 18:16:10 ]
 # parameters from EPICS run 22157
 ebeam = 2.18247
@@ -497,7 +497,7 @@ R.pcentral = 2.18854
 # parameters from EPICS run 3213
 ebeam = 2.18225
 L.theta = 4.78
-L.pcentral = 1.33582
+L.pcentral = 2.18337
 --------[ 2020-08-25 12:45:32 ]
 # parameters from EPICS run 22171
 ebeam = 2.18227
@@ -507,7 +507,7 @@ R.pcentral = 2.18854
 # parameters from EPICS run 3214
 ebeam = 2.18221
 L.theta = 4.78
-L.pcentral = 0.517095
+L.pcentral = 2.18337
 --------[ 2020-08-25 12:52:22 ]
 # parameters from EPICS run 22172
 ebeam = 2.18247
@@ -517,7 +517,7 @@ R.pcentral = 2.18854
 # parameters from EPICS run 3215
 ebeam = 2.18224
 L.theta = 4.78
-L.pcentral = 0.443426
+L.pcentral = 2.18337
 --------[ 2020-08-25 13:01:30 ]
 # parameters from EPICS run 22173
 ebeam = 2.18222
@@ -527,7 +527,7 @@ R.pcentral = 2.18854
 # parameters from EPICS run 3216
 ebeam = 2.18222
 L.theta = 4.78
-L.pcentral = 1.32354
+L.pcentral = 2.18337
 --------[ 2020-08-25 13:23:58 ]
 # parameters from EPICS run 22174
 ebeam = 2.18222
@@ -537,7 +537,7 @@ R.pcentral = 2.18854
 # parameters from EPICS run 3232
 ebeam = 2.18311
 L.theta = 4.78
-L.pcentral = 0.578145
+L.pcentral = 2.18337
 --------[ 2020-08-30 17:03:48 ]
 # parameters from EPICS run 22188
 ebeam = 2.1831
@@ -547,7 +547,7 @@ R.pcentral = 2.18847
 # parameters from EPICS run 3236
 ebeam = 2.18226
 L.theta = 4.78
-L.pcentral = 0.438301
+L.pcentral = 2.18309
 --------[ 2020-09-1 01:22:32 ]
 # parameters from EPICS run 22192
 ebeam = 2.1823
@@ -557,7 +557,7 @@ R.pcentral = 2.18848
 # parameters from EPICS run 3238
 ebeam = 2.18223
 L.theta = 4.78
-L.pcentral = 0.721004
+L.pcentral = 2.18309
 --------[ 2020-09-1 01:43:26 ]
 # parameters from EPICS run 22194
 ebeam = 2.18224
@@ -567,7 +567,7 @@ R.pcentral = 2.18848
 # parameters from EPICS run 3259
 ebeam = 2.18251
 L.theta = 4.78
-L.pcentral = 0.54682
+L.pcentral = 2.18309
 --------[ 2020-09-7 09:49:49 ]
 # parameters from EPICS run 22214
 ebeam = 2.18244
@@ -577,7 +577,7 @@ R.pcentral = 2.18847
 # parameters from EPICS run 3260
 ebeam = 2.18252
 L.theta = 4.78
-L.pcentral = 0.479861
+L.pcentral = 2.18337
 --------[ 2020-09-7 10:01:55 ]
 # parameters from EPICS run 22215
 ebeam = 2.18249
@@ -587,7 +587,7 @@ R.pcentral = 2.18847
 # parameters from EPICS run 3261
 ebeam = 2.1826
 L.theta = 4.78
-L.pcentral = 0.438349
+L.pcentral = 2.18309
 --------[ 2020-09-7 10:10:53 ]
 # parameters from EPICS run 22216
 ebeam = 2.18258
@@ -597,7 +597,7 @@ R.pcentral = 2.18847
 # parameters from EPICS run 3274
 ebeam = 2.18245
 L.theta = 4.78
-L.pcentral = 0.871412
+L.pcentral = 2.18337
 --------[ 2020-09-13 16:08:13 ]
 # parameters from EPICS run 22230
 ebeam = 2.18249
@@ -607,7 +607,7 @@ R.pcentral = 2.18847
 # parameters from EPICS run 3275
 ebeam = 2.18243
 L.theta = 4.78
-L.pcentral = 0.685431
+L.pcentral = 2.18309
 --------[ 2020-09-13 16:21:03 ]
 # parameters from EPICS run 22231
 ebeam = 2.18249
