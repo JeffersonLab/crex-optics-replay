@@ -117,6 +117,7 @@ void setup(Int_t runNo=0, Int_t lastevt=-1, TString target="Ca48"){
 	else // if this is the first run 
 	  {
 	    run = new THaRun(infile);
+	    //run->SetDataRequired(THaRunBase::kDate);  // to skip the prescale for run 21972, 21973
 	  }
 	
 	if(lastevt>=0) run->SetLastEvent(lastevt);
